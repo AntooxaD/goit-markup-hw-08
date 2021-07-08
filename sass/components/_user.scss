@@ -1,0 +1,64 @@
+.team {
+  margin: 0 auto;
+}
+.team__user {
+  margin: 30px auto 16px;
+}
+.team__title--user {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+}
+.team__text--user {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.1;
+  color: var(--adress-color);
+  margin-top: 10px;
+}
+.team__item .team__list + .team__list {
+  margin-left: 30px;
+}
+
+.team__item {
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  padding-left: 0;
+}
+.team__list {
+  height: 428px;
+  background-color: var(--second-text-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team__icon {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.team__link--icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  cursor: pointer;
+  fill: var(--social-links-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus,
+  &:hover {
+    display: inline-flex;
+    fill: var(--second-text-color);
+    background-color: var(--highlight-color);
+  }
+}
+.team__img--svg {
+  width: 20px;
+  height: 20px;
+}

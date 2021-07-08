@@ -1,0 +1,14 @@
+.footer__item--address {
+  padding-left: 0;
+  margin-top: 9px;
+}
+.footer__item--address .footer__list--address + .footer__list--address {
+  margin-top: 9px;
+}
+
+.footer__link--address {
+  color: var(--second_address-color);
+  text-decoration: none;
+  font-style: normal;
+  line-height: 1.7;
+}

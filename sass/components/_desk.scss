@@ -1,0 +1,25 @@
+.desk__item {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+}
+.desk__list:not(:last-child) {
+  margin-right: 30px;
+}
+.desk__list {
+  position: relative;
+}
+.desk__text {
+  position: absolute;
+  background-color: var(--desk-aboutTeam-color);
+  color: var(--second-text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 70px;
+  bottom: 0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}

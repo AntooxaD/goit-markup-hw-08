@@ -1,0 +1,116 @@
+.form__text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+}
+.form {
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form__label {
+  position: relative;
+  width: 100%;
+  margin-top: 4px;
+}
+.form__list {
+  display: block;
+  margin-top: 4px;
+}
+
+.form__icon {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border: 1px solid var(--lebel-outline-color);
+  border-radius: 4px;
+  padding-left: 40px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+}
+
+.form__pic {
+  position: absolute;
+  left: 12px;
+  transform: translateY(50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form__label :hover,
+.form__label :focus-within {
+  border-color: var(--highlight-color);
+  fill: var(--highlight-color);
+}
+.form__label {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: var(--adress-color);
+}
+
+.textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid var(--lebel-outline-color);
+  border-radius: 4px;
+  margin-top: 4px;
+  resize: none;
+  outline: none;
+}
+.textarea::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.textarea:hover,
+.textarea:focus {
+  border: 1px solid var(--highlight-color);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.agreement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 12px;
+  color: var(--agreement-color);
+}
+.checkmark {
+  width: 16px;
+  height: 15px;
+  margin-right: 8.38px;
+  border: 2px solid var(--first-text-color);
+}
+.linkAgreement {
+  margin-left: 4px;
+  position: relative;
+  text-decoration: none;
+  color: var(--highlight-color);
+}
+.linkAgreement::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: var(--highlight-color);
+  position: absolute;
+  bottom: 4px;
+}
+
+.checkbox:checked + .checkmark {
+  background-color: var(--highlight-color);
+  border: 2px solid var(--highlight-color);
+  background-image: url(../images/svg/subscribe.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-clip: border-box;
+}
+.checkbox:focus:checked + .checkmark {
+  background-color: var(--highlight-color);
+  border: 2px solid var(--highlight-color);
+}

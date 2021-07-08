@@ -1,0 +1,25 @@
+.main-nav__logo {
+  display: flex;
+  align-items: center;
+  color: var(--first-text-color);
+  font-size: 26px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 93px;
+}
+.main-nav__part-logo,
+.footer__part-logo {
+  color: var(--highlight-color);
+}
+.footer__logo {
+  display: inline-block;
+  color: var(--second-text-color);
+  font-size: 26px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
