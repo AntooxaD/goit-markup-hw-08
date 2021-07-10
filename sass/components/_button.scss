@@ -24,12 +24,16 @@
   height: 50px;
   font-weight: 700;
   @include font(16px, 1.85, 0.06em);
-  margin-left: 12px;
+  margin-top: 20px;
   background-color: var(--highlight-color);
   color: var(--second-text-color);
   border: none;
   border-radius: 4px;
   vertical-align: middle;
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+    margin-left: 20px;
+  }
 }
 .subscribe-img {
   vertical-align: middle;
@@ -77,12 +81,16 @@
 }
 .control {
   display: flex;
+  flex-wrap: wrap;
   padding-left: 0;
-  justify-content: center;
   margin-bottom: 50px;
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
 }
-.control .control-list + .control-list {
-  margin-left: 8px;
+.control-list {
+  margin-right: 8px;
+  margin-bottom: 15px;
 }
 
 .control-button {
@@ -91,6 +99,7 @@
 }
 .control .control-button {
   font-family: Roboto, sans-serif;
+  font-size: 16px;
   cursor: pointer;
   font-weight: 500;
   line-height: 1.62;

@@ -1,3 +1,10 @@
+.section-desk {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}
+
 .desk__item {
   list-style-type: none;
   display: flex;

@@ -1,5 +1,13 @@
 <svg aria-hidden="true" style="position:absolute;width:0;height:0" xmlns="http://www.w3.org/2000/svg" overflow="hidden">
     <defs>
+        <symbol id="menu" viewBox="0 0 48 32">
+            <path d="M0 5.4v-5.4h48v5.4h-48zM0 18.6h48v-5.2h-48v5.2zM0 32h48v-5.4h-48v5.4z"></path>
+        </symbol>
+        <symbol id="close_24px" viewBox="0 0 32 32">
+            <path
+                d="M31.495 3.2l-3.368-3.2-12.463 12.632-12.295-12.632-3.368 3.2 12.632 12.463-12.632 12.632 3.2 3.2 12.463-12.632 12.632 12.632 3.2-3.368-12.632-12.463 12.632-12.295z">
+            </path>
+        </symbol>
         <symbol id="iconsend" viewBox="0 0 32 32">
             <path fill="#fff" style="fill: var(--color1, #fff)"
                 d="M32 0l-32 18 10.267 3.733 15.733-14.667-12 16v8.933l5.733-6.667 7.333 2.667 4.933-28z"></path>
