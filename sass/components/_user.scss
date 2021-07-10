@@ -38,11 +38,11 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   @media screen and (min-width: 768px) {
-    flex-basis: calc((100% - 30px) / 2);
+    flex-basis: calc((100% - 60px) / 2);
     margin-left: auto;
   }
   @media screen and (min-width: 1200px) {
-    flex-basis: auto;
+    flex-basis: calc((100% - 120px) / 4);
     width: 270px;
   }
 }

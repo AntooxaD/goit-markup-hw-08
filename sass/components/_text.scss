@@ -1,14 +1,14 @@
 .hero__title {
   color: var(--second-text-color);
-  width: 696px;
-  font-size: 44px;
+  max-width: 360px;
+  font-size: 26px;
   font-weight: 900;
-  line-height: 1.36;
+  line-height: 1.615;
   letter-spacing: 0.06em;
-  @media screen and (min-width: 480px) {
-    max-width: 480px;
-    font-size: 26px;
-    width: 360px;
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    max-width: 696px;
+    line-height: 1.36;
   }
 }
 %title {

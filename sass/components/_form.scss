@@ -88,18 +88,8 @@
 }
 .linkAgreement {
   margin-left: 4px;
-  position: relative;
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--highlight-color);
-}
-.linkAgreement::after {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 1px;
-  background-color: var(--highlight-color);
-  position: absolute;
-  bottom: 2px;
 }
 
 .checkbox:checked + .checkmark {
