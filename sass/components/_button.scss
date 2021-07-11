@@ -95,6 +95,9 @@
 .control-list {
   margin-right: 8px;
   margin-bottom: 15px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
 }
 
 .control-button {

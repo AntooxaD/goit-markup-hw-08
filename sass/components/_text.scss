@@ -19,6 +19,9 @@
   line-height: 1.16;
   text-align: center;
   margin-bottom: 30px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
 }
 .desk__title,
 .team__title,

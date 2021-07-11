@@ -388,6 +388,13 @@ Footer {
   margin-top: 0;
 }
 
+@media screen and (min-width: 1200px) {
+  .section, .section-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 .section-team {
   background-color: var(--team-color);
 }
@@ -396,16 +403,23 @@ Footer {
   position: relative;
   display: flex;
   justify-content: space-between;
-}
-
-.main-nav__list {
   margin-top: 16px;
 }
 
 @media screen and (min-width: 768px) {
-  .main-nav__list {
-    display: flex;
+  .main-nav {
+    margin-top: 26px;
   }
+}
+
+@media screen and (min-width: 1200px) {
+  .main-nav {
+    margin-top: 24px;
+  }
+}
+
+.main-nav__list {
+  display: flex;
 }
 
 .main-nav__link--active {
@@ -429,13 +443,13 @@ Footer {
 
 @media screen and (min-width: 768px) {
   .main-nav__link--active::after {
-    bottom: -32px;
+    bottom: -34px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .main-nav__link--active::after {
-    bottom: -22px;
+    bottom: -24px;
   }
 }
 
@@ -498,6 +512,7 @@ Footer {
 @media screen and (min-width: 1200px) {
   .main-nav__contact {
     display: flex;
+    margin-top: 0;
   }
 }
 
@@ -515,10 +530,6 @@ Footer {
   .main-nav__contact-link {
     display: flex;
   }
-}
-
-.main-nav__contact-list:not(:last-child) {
-  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -770,6 +781,12 @@ Footer {
   margin-bottom: 15px;
 }
 
+@media screen and (min-width: 768px) {
+  .control-list {
+    margin-bottom: 0;
+  }
+}
+
 .control-button {
   border: none;
   padding: 6px 22px;
@@ -854,6 +871,14 @@ Footer {
   line-height: 1.16;
   text-align: center;
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .desk__title,
+  .team__title,
+  .customers__title {
+    margin-bottom: 50px;
+  }
 }
 
 .features__title {
@@ -1141,6 +1166,7 @@ Footer {
 
 @media screen and (min-width: 1200px) {
   .company__list {
+    margin-top: 0;
     display: flex;
     flex-basis: auto;
   }
@@ -1417,6 +1443,11 @@ Footer {
   right: 10px;
 }
 
+.menu-open:focus, .menu-open:hover {
+  fill: var(--highlight-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 @media screen and (min-width: 768px) {
   .menu-open {
     display: none;
@@ -1431,6 +1462,11 @@ Footer {
   margin-top: 10px;
   top: 10px;
   right: 25px;
+}
+
+.menu-close:focus, .menu-close:hover {
+  fill: var(--highlight-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-nav {

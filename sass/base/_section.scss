@@ -3,4 +3,8 @@
   padding-top: 60px;
   padding-bottom: 60px;
   margin-top: 0;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
